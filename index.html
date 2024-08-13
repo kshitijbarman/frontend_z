@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .a{
+            color: red;
+            background-color: blue;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            padding:10px;
+            letter-spacing: 6px;
+            text-shadow: 0px 0px 10px green;
+            border-radius: 50px;
+        }
+        .b{
+            border: 1px solid;
+            background-color: yellow;
+            padding-top: 40px;
+            padding-bottom: 5px;
+            padding-left: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>6 Sept</h1>
+    <marquee behavior="alternate" direction="left"><h1>this is my heading h<sub>2</sub>o tag</h1></marquee>
+    <p>Lorem ipsum, <b>kshitij </b>dolor sit amet consectetur adipisicing elit. Quod fugiat delectus possimus, incidunt amet debitis nemo aut tempore quos consequatur!</p>
+    <center><h2>this is my h2 tag</h2></center>
+    <h3>this is my h3 </h3>
+    <p>today we will discuss <abbr title="hypertext markup language">html</abbr> lamguage</p>
+    <h6>this is my h6 tag</h6>
+    <a href="https://google.com">Google</a>
+    <a href="https://facebook.com">facebook</a>
+    <a href="https://skype.com" target="_blank">skype</a>
+
+    <img src="https" alt="image not found">
+
+    <h1>7 Sept</h1>
+
+    <ul type="square">
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+        <li>register</li>
+    </ul>
+
+    <ol type="A">
+        <li>home
+            <ul>
+                <li>t shirt</li>
+                <li>jeans</li>
+            </ul>
+        </li>
+        <li>about</li>
+        <li>contact</li>
+        <li>register
+            <ol>
+                <li>t shirt</li>
+                <li>jeans</li>
+            </ol> 
+        </li>
+    </ol>
+
+    <dl>
+        <dt>coffie</dt>
+        <dd>cold coffie</dd>
+        <dd>hot coffie</dd>
+        <dd>black coffie</dd>
+
+        <dt>tea</dt>
+        <dd>cold tea</dd>
+        <dd>hot tea</dd>
+        <dd>black tea</dd>
+        <dd>gren tea</dd>
+
+    </dl>
+
+<!-- 
+    <table border="5">
+        <tr>
+            <th colspan="2">S no</th>
+            <th>Name</th>
+            <th>E-mail</th>
+            <th>Mobile No</th>
+        </tr>
+        <tr>
+            <td colspan="2">1</td>
+            <td>Aman</td>
+            <td>aman@gmail.com</td>
+            <td>912345678</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Mohan</td>
+            <td>mohan@gmail.com</td>
+            <td>902222222</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td rowspan="2">Keshav</td>
+            <td>Keshav@gmail.com</td>
+            <td>902222222</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>hershit</td>
+            <td>hershit@gmail.com</td>
+            <td>902222222</td>
+        </tr>
+    </table>
+ -->
+
+    
+    <table border="2">
+       <tr>
+        <th>Sno</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Mobile</th>
+       </tr>
+
+       <tr>
+        <td></td>
+        <th colspan="2">FName Lnmae</td>
+        <td></td>
+       </tr>
+
+        <tr>
+        <td>1</td>
+        <td>Mohit Sharma</td>
+        <td>mohit@gmail.com</td>
+        <td>898765456</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Rohit Sharma</td>
+            <td>rohit@gmail.com</td>
+            <td>987654565</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ankit Sharma</td>
+            <td>ankit@gmail.com</td>
+            <td>9876544566</td>
+        </tr>
+    </table>
+
+    <table border="2">
+        <tr>
+         <th rowspan="2">Sno</th>
+         <th colspan="2">Name</th>
+         <th rowspan="2">Email</th>
+         <th rowspan="2">Mobile</th>
+        </tr>
+ 
+        <tr>
+         <th>FName </th>
+         <th>Lnmae</th>
+        </tr>
+ 
+         <tr>
+         <td>1</td>
+         <td colspan="2">Mohit Sharma</td>
+         <td>mohit@gmail.com</td>
+         <td>898765456</td>
+         </tr>
+ 
+         <tr>
+             <td>2</td>
+             <td colspan="2">Rohit Sharma</td>
+             <td>rohit@gmail.com</td>
+             <td>987654565</td>
+         </tr>
+         <tr>
+             <td>3</td>
+             <td colspan="2">Ankit Sharma</td>
+             <td>ankit@gmail.com</td>
+             <td>9876544566</td>
+         </tr>
+     </table>
+
+     <form action="/abc" method="post">
+     <label for="name">Name :</label><input type="text" placeholder="Enter your name"><br>
+    <label for="">Email :</label><input type="email" placeholder="Enter your Email"><br>
+    <label for="">Mobile :</label><input type="number" placeholder="Enter your Numbrt"><br>
+    <input type="submit">
+     </form>
+
+
+
+     <hr>
+
+
+
+     <table border="">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="4">Seminar</th>
+        </tr>
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8.00 a.m</td>
+            <td rowspan="2">5.00 p.m</td>
+            <td>Introduction to Xml</td>
+        </tr>
+        <tr>
+            <td>Introduction to Xml</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8.00 a.m</td>
+            <td>11.00 a.m</td>
+            <td>XPath</td>
+        </tr>
+        <tr>
+            <td>11.00 a.m</td>
+            <td>2.00 a.m</td>
+            <!-- <td>hello 1</td> -->
+        </tr>
+        <tr>
+            <td>2.00 p.m</td>
+            <td>5.00 p.m</td>
+            <td>XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8.00 a.m</td>
+            <td>12.00 p.m</td>
+            <td>XSL Formating Object</td>
+        </tr>
+
+    </table>
+
+    <h1>8 sept</h1>
+
+    <h1 style="color: red;background-color: blue;text-align: center;border-radius: 50px;padding: 10px;text-shadow: 0px 0px 10px green;letter-spacing: 6px;text-transform: uppercase;font-family: sans-serif;">this is my heading tag</h1>
+
+    <h1 class="a">this is my second heading</h1>
+
+    <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sed officia beatae quis, consectetur delectus? Necessitatibus eius architecto dolorum iure provident quas dolorem fugiat fugit?</p>
+
+    <h1 class="b"> this is my heading </h1>
+    <h1 class="b"> this is my heading 2</h1>
+
+
+
+    <h1>13 august</h1>
+
+    <div class="box">this is box</div>
+    <div class="box">this is box</div>
+    <div class="box">this is box</div>
+    <div class="box">this is box</div>
+    <div class="box">this is box</div>
+    <div class="box">this is box</div>
+    <div class="box">this is box</div>
+    <div class="box">this is box</div>
+    <div class="box">this is box</div>
+    <div class="box">this is box</div>
+
+
+</body>
+</html>
